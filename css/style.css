@@ -168,3 +168,51 @@ body {
     width: 280px;
     margin-bottom: 1rem;
 }
+
+/* Download */
+.download {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 3rem auto;
+}
+
+.download h2 {
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.download span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.download p {
+    width: 353px;
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: right;
+}
+
+.download .img-1 {
+    width: 30%;
+}
+
+.download .img-2 {
+    width: 10%;
+}
