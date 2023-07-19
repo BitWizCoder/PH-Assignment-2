@@ -189,6 +189,60 @@ header .nav {
     margin-bottom: 1rem;
 }
 
+/* Overlay Efect */
+.box-container {
+    position: relative;
+}
+
+.box-1 {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 42.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.63);
+    border-radius: .8rem;
+    width: 100%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #FF42A5;
+    cursor: pointer;
+}
+
+
+.box-container:hover .middle {
+    opacity: 1;
+}
+
+.play-icon {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.play-icon span {
+    font-weight: bold;
+    margin-top: 1rem;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
 /* Download */
 .download {
     display: flex;
@@ -196,6 +250,7 @@ header .nav {
     justify-content: space-between;
     max-width: 1200px;
     margin: 3rem auto;
+    margin-bottom: 5rem;
 }
 
 .download h2 {
@@ -227,8 +282,6 @@ header .nav {
     width: 100%;
 }
 
-
-
 .download .img-2 {
     width: 20%;
     position: absolute;
@@ -251,12 +304,13 @@ header .nav {
     text-align: center;
     gap: .2rem;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 3rem auto;
 }
 
 .card {
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: .5rem 1.5rem;
     border-radius: 5rem;
     border: 1px solid #fff;
@@ -276,8 +330,14 @@ header .nav {
     -webkit-text-fill-color: transparent;
 }
 
+.card p {
+    color: #0B0223;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
 .card img {
-    width: 20%;
+    width: 15%;
     margin-right: .5rem;
 }
 

@@ -2,6 +2,12 @@
 @media screen and (max-width: 1140px) {
     .download {
         flex-direction: column;
+        gap: 3rem;
+        text-align: center;
+    }
+
+    .download h2, .download p {
+        text-align: center;
     }
 }
 
