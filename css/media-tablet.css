@@ -1,10 +1,15 @@
 /* Nave */
 @media screen and (max-width: 1140px) {
+    .download {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1120px) {
     .hero .container {
         margin: 0 5rem;
     }
 }
-
 
 @media screen and (max-width: 768px) {
     .nav .container {
@@ -44,6 +49,10 @@
     .videos .boxes {
         display: flex;
         margin-top: 2rem;
+    }
+
+    .videos h1 {
+        font-size: 2rem;
     }
 
 }
