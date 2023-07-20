@@ -311,7 +311,7 @@ header .nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: .5rem 1.5rem;
+    padding: .5rem .5rem;
     border-radius: 5rem;
     border: 1px solid #fff;
     color: #0B0223;
@@ -370,21 +370,28 @@ footer .nav a {
 
 footer .icons {
     margin: 2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
 }
 
 footer .icons a {
     color: #fff;
-    padding: .8rem;
+    padding: 2rem;
+    font-size: 2rem;
 }
 
 footer .links {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    text-align-last: center;
+    text-align: center;
     gap: 1.5rem;
     color: #fff;
     max-width: 60rem;
+    line-height: 2rem;
 }
 
 footer .links a {
