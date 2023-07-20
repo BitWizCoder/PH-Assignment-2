@@ -1,5 +1,5 @@
 /* Nave */
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
     .nav .container {
         flex-direction: column;
     }
@@ -16,5 +16,13 @@
 
     .hero h1 {
         font-size: 4rem;
+    }
+
+    /* Download */
+    .download .img-2 {
+        width: 39%;
+        position: absolute;
+        bottom: -1rem;
+        left: -3rem;
     }
 }

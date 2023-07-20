@@ -6,7 +6,8 @@
         text-align: center;
     }
 
-    .download h2, .download p {
+    .download h2,
+    .download p {
         text-align: center;
     }
 }
@@ -14,6 +15,14 @@
 @media screen and (max-width: 1120px) {
     .hero .container {
         margin: 0 5rem;
+    }
+
+    /* Download */
+    .download .img-2 {
+        width: 25%;
+        position: absolute;
+        bottom: -1rem;
+        left: -3rem;
     }
 }
 
@@ -60,5 +69,7 @@
     .videos h1 {
         font-size: 2rem;
     }
+
+
 
 }
